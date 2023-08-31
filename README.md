@@ -64,5 +64,3 @@ You can customize your iEvaLM-CRS by specifying these configs:
 - `--mode`: [ask, chat]
 
 After the execution, you will find evaluation results under "save_{turn_num}/result/{mode}/{model}/{dataset}.json".
-# iEvaLM-CRS
-# iEvaLM-CRS
