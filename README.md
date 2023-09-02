@@ -115,8 +115,8 @@ After the execution, you will find evaluation results under "save_{turn_num}/res
     <td>19.8(±2.86)</td>
     <td>17.0</td>
     <td>20.1(±1.70)</td>
-    <td>1.90(±3.48)</td>
-    <td>2.15</td>
+    <td>19.0(±3.48)</td>
+    <td>21.5</td>
     <td>23.8(±2.31)</td>
     <td>31.7(±2.65)</td>
     <td>13.0</td>
