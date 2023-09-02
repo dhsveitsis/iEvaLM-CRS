@@ -64,3 +64,126 @@ You can customize your iEvaLM-CRS by specifying these configs:
 - `--mode`: [ask, chat]
 
 After the execution, you will find evaluation results under "save_{turn_num}/result/{mode}/{model}/{dataset}.json".
+
+### Result
+
+<p align="center">Performance of CRSs and ChatGPT using different evaluation approaches.</p>
+<table border="1" align="center">
+  <tbody >
+  <tr align="center">
+    <td colspan="2">Model</td>
+    <td colspan="3">KBRD</td>
+    <td colspan="3">BARCOR</td>
+    <td colspan="3">UniCRS</td>
+    <td colspan="3">ChatGPT</td>
+  </tr>
+  <tr align="center">
+    <td colspan="2">Evaluation Approach</td>
+    <td>Original</td>
+    <td>iEvaLM(attr)</td>
+    <td>iEvaLM(free)</td>
+    <td>Original</td>
+    <td>iEvaLM(attr)</td>
+    <td>iEvaLM(free)</td>
+    <td>Original</td>
+    <td>iEvaLM(attr)</td>
+    <td>iEvaLM(free)</td>
+    <td>Original</td>
+    <td>iEvaLM(attr)</td>
+    <td>iEvaLM(free)</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="3">ReDial</td>
+    <td>R@1</td>
+    <td>2.8</td>
+    <td>3.9(±1.28)</td>
+    <td>3.5(±1.26)</td>
+    <td>3.1</td>
+    <td>3.4(±0.62)</td>
+    <td>3.4(±0.36)</td>
+    <td>5.0</td>
+    <td>5.3(±1.66)</td>
+    <td>10.7(±2.49)</td>
+    <td>3.7</td>
+    <td><b>19.1(±1.02)</b></td>
+    <td>14.6(±0.91)</td>
+  </tr>
+  <tr align="center">
+    <td>R@10</td>
+    <td>16.9</td>
+    <td>19.6(±2.74)</td>
+    <td>19.8(±2.86)</td>
+    <td>17.0</td>
+    <td>20.1(±1.70)</td>
+    <td>1.90(±3.48)</td>
+    <td>2.15</td>
+    <td>23.8(±2.31)</td>
+    <td>31.7(±2.65)</td>
+    <td>13.0</td>
+    <td><b>53.6(±2.79)</b></td>
+    <td>44.0(±0.77)</td>
+  </tr>
+  <tr align="center">
+    <td>R@50</td>
+    <td>36.6</td>
+    <td>43.6(±1.23)</td>
+    <td>45.3(±1.99)</td>
+    <td>37.2</td>
+    <td>42.7(±1.63)</td>
+    <td>46.7(±2.55)</td>
+    <td>41.3</td>
+    <td>52.0(±1.22)</td>
+    <td>60.2(±1.25)</td>
+    <td>21.8</td>
+    <td><b>73.9</b></td>
+    <td>70.5</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="3">OpenDialKG</td>
+    <td>R@1</td>
+    <td>23.1</td>
+    <td>13.1(±3.68)</td>
+    <td>23.4(±0.73)</td>
+    <td>31.2</td>
+    <td>26.4(±1.44)</td>
+    <td>31.4(±2.40)</td>
+    <td>30.8</td>
+    <td>18.0(±0.54)</td>
+    <td>31.4(±3.48)</td>
+    <td>31.0</td>
+    <td>29.9(±3.12)</td>
+    <td><b>40.0(±2.93)</b></td>
+  </tr>
+  <tr align="center">
+    <td>R@10</td>
+    <td>0.423</td>
+    <td>0.293(±0.60)</td>
+    <td>0.431(±1.87)</td>
+    <td>0.453</td>
+    <td>0.423(±2.09)</td>
+    <td>0.458(±2.07)</td>
+    <td>0.513</td>
+    <td>0.393(±4.25)</td>
+    <td>0.538(±3.22)</td>
+    <td>0.539</td>
+    <td>0.604(±2.92)</td>
+    <td><b>0.715(±1.87)</b></td>
+  </tr>
+  <tr align="center">
+    <td>R@50</td>
+    <td>49.2</td>
+    <td>37.7(±1.47)</td>
+    <td>50.9(±0.82)</td>
+    <td>51.0</td>
+    <td>48.2(±1.49)</td>
+    <td>53.0(±1.96)</td>
+    <td>57.4</td>
+    <td>45.8(±3.49)</td>
+    <td>60.9(±1.38)</td>
+    <td>60.7</td>
+    <td>70.8</td>
+    <td><b>82.5</b></td>
+  </tr>
+  </tbody>
+
+</table>
