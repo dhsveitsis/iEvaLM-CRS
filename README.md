@@ -156,18 +156,18 @@ After the execution, you will find evaluation results under "save_{turn_num}/res
   </tr>
   <tr align="center">
     <td>R@10</td>
-    <td>0.423</td>
-    <td>0.293(±0.60)</td>
-    <td>0.431(±1.87)</td>
-    <td>0.453</td>
-    <td>0.423(±2.09)</td>
-    <td>0.458(±2.07)</td>
-    <td>0.513</td>
-    <td>0.393(±4.25)</td>
-    <td>0.538(±3.22)</td>
-    <td>0.539</td>
-    <td>0.604(±2.92)</td>
-    <td><b>0.715(±1.87)</b></td>
+    <td>42.3</td>
+    <td>29.3(±0.60)</td>
+    <td>43.1(±1.87)</td>
+    <td>45.3</td>
+    <td>42.3(±2.09)</td>
+    <td>45.8(±2.07)</td>
+    <td>51.3</td>
+    <td>39.3(±4.25)</td>
+    <td>53.8(±3.22)</td>
+    <td>53.9</td>
+    <td>60.4(±2.92)</td>
+    <td><b>71.5(±1.87)</b></td>
   </tr>
   <tr align="center">
     <td>R@50</td>
