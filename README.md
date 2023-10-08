@@ -67,6 +67,7 @@ After the execution, you will find evaluation results under "save_{turn_num}/res
 
 ### Result
 
+## 🌟 Perfermance
 <p align="center">Performance of CRSs and ChatGPT using different evaluation approaches.</p>
 <table border="1" align="center">
   <tbody >
@@ -208,7 +209,7 @@ After the execution, you will find evaluation results under "save_{turn_num}/res
     <tr align="center">
     <td>iEvaLM</td>
     <td>0.766</td>
-    <td>0.912</td>
+    <td>0.862</td>
   </tr>
   </tr>
     <tr align="center">
@@ -221,7 +222,7 @@ After the execution, you will find evaluation results under "save_{turn_num}/res
     <tr align="center">
     <td>iEvaLM</td>
     <td>0.795</td>
-    <td>1.224</td>
+    <td>1.211</td>
   </tr>
   </tr>
     <tr align="center">
@@ -234,7 +235,7 @@ After the execution, you will find evaluation results under "save_{turn_num}/res
     <tr align="center">
     <td>iEvaLM</td>
     <td>1.015</td>
-    <td>1.321</td>
+    <td>1.314</td>
   </tr>
   </tr>
     <tr align="center">
